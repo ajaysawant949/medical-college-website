@@ -1,0 +1,15 @@
+h1{
+    text-align: center;
+}
+ul.navigation{
+    display: flex;
+    background: orange;
+    justify-content: space-between;
+    li {
+        list-style-type: none;
+        text-transform: uppercase;
+        font-weight: bold;
+        padding: 1rem;
+        text-decoration: underline;
+    }
+}

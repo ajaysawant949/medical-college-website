@@ -1,0 +1,35 @@
+<ul>
+    <li>Email ID: contact@gmcp.com </li>
+    <li>Contact Number: 080-99994561</li>
+    <li>Alternatively you can approach our reception desk at the institute during working hours.</li>
+    <li>If you have any queries and are unable to contact us, fill the below form and we will get back to you at the earliest.</li>
+    <body>
+        <section>
+            <form #contactform="ngForm" (ngSubmit)="query(contactform)">
+                <fieldset>
+                    <legend>Contact Us</legend>
+
+                    <label for="fullname">Your Name:</label><br>
+                    <input type="text" name="fullname" class="form-control" id="fullname" ngModel><br>
+
+                    <label for="email">Email ID:</label><br>
+                    <input type="text" name="email" class="form-control" id="email" ngModel><br>
+
+                    <label for="phone">Contact Number:</label><br>
+                    <input type="tel" name="phone" class="form-control" id="phone" ngModel><br>
+
+                    <label for="query">Your Queries:</label><br>
+                    <textarea name="query" class="form-control" id="query" ngModel></textarea><br>
+
+                    
+
+                    <input type="submit" value="Contact Us">
+
+                    
+                    
+                     
+                </fieldset>
+            </form>
+        </section>
+    </body>
+</ul>
